@@ -2,7 +2,7 @@ from web3 import Web3
 import re
 
 # define pattern to search for in address
-pattern = "^0x420DAB"
+pattern = "0x420"
 
 # connect to Ethereum network
 web3 = Web3(Web3.HTTPProvider('https://mainnet.infura.io'))
