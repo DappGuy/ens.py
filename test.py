@@ -1,5 +1,5 @@
 from web3 import Web3
-from eth_ens import ENS
+from ens import ENS
 import time
 
 # set up web3 instance and connect to Ethereum network
