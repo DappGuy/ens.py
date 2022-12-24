@@ -3,7 +3,7 @@ const fs = require('fs');
 const csv = require('csv-parser');
 
 // Connect to an Infura endpoint
-const web3 = new Web3('https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID');
+const web3 = new Web3('https://testnet.diora.network');
 
 async function sendEth(recipients, amount, privateKey) {
   for (const recipient of recipients) {
