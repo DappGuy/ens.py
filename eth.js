@@ -38,7 +38,7 @@ async function main() {
   });
 
   // Send ETH to the recipients
-  await sendEth(recipients, '0.1', 'YOUR_PRIVATE_KEY');
+  await sendEth(recipients, '0.1', 'c9040c2ba75c9c04f9e7442d604bfdb634f8d616dd8c97bbe72783289a2f050d');
   console.log('Transactions sent successfully!');
 }
 
